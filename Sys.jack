@@ -11,15 +11,7 @@ class Sys {
         do Screen.init();
         do Keyboard.init();
 
-        // Extensions:
-        do Paging.init();
-        do Process.init();
-        do Disk.init();
-        do Filesystem.init();
 
-        // Let's go to userland!
-        do Main.main();
-        do Sys.halt();
         return;
     }
 
